@@ -4568,7 +4568,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 234.95 100.33 0)
 			(effects
 				(font
@@ -4656,7 +4656,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H7.0mm_P2.00mm"
 			(at 108.9152 158.75 0)
 			(effects
 				(font
@@ -4724,7 +4724,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 251.46 100.33 0)
 			(effects
 				(font
@@ -4810,7 +4810,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 267.97 81.28 0)
 			(effects
 				(font
@@ -5108,7 +5108,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 218.44 62.23 0)
 			(effects
 				(font
@@ -5272,7 +5272,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H7.0mm_P2.00mm"
 			(at 172.72 173.99 0)
 			(effects
 				(font
@@ -5475,7 +5475,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H7.0mm_P2.00mm"
 			(at 97.4852 158.75 0)
 			(effects
 				(font
@@ -5543,7 +5543,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 267.97 62.23 0)
 			(effects
 				(font
@@ -5802,7 +5802,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 234.95 43.18 0)
 			(effects
 				(font
@@ -6089,7 +6089,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 218.44 43.18 0)
 			(effects
 				(font
@@ -6309,7 +6309,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 218.44 100.33 0)
 			(effects
 				(font
@@ -6664,7 +6664,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 267.97 100.33 0)
 			(effects
 				(font
@@ -7087,7 +7087,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 251.46 43.18 0)
 			(effects
 				(font
@@ -7241,7 +7241,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 218.44 81.28 0)
 			(effects
 				(font
@@ -7396,7 +7396,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H7.0mm_P2.00mm"
 			(at 147.32 173.99 0)
 			(effects
 				(font
@@ -7530,7 +7530,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 251.46 62.23 0)
 			(effects
 				(font
@@ -7944,7 +7944,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H7.0mm_P2.00mm"
 			(at 120.65 173.99 0)
 			(effects
 				(font
@@ -8218,7 +8218,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 267.97 43.18 0)
 			(effects
 				(font
@@ -8372,7 +8372,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 234.95 62.23 0)
 			(effects
 				(font
@@ -8736,7 +8736,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 251.46 81.28 0)
 			(effects
 				(font
@@ -8898,7 +8898,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 234.95 81.28 0)
 			(effects
 				(font
