@@ -13,6 +13,47 @@ from kmk.modules.encoder import EncoderHandler
 from kmk.extensions.rgb import RGB
 from kmk.extensions.rgb import AnimationModes
 import adafruit_pcf8574
+import busio
+from kmk.extensions.display import Display, TextEntry, ImageEntry
+
+# For SSD1306
+from kmk.extensions.display.ssd1306 import SSD1306
+
+# Replace SCL and SDA according to your hardware configuration.
+i2c_bus = busio.I2C(board.SCL, board.SDA)
+
+driver = SSD1306(
+    # Mandatory:
+    i2c=i2c_bus,
+    # Optional:
+    device_address=0x3C,
+)
+display = Display(
+    # Mandatory:
+    display=driver,
+    # Optional:
+    width=128, # screen size
+    height=32, # screen size
+    flip = False, # flips your display content
+    flip_left = False, # flips your display content on left side split
+    flip_right = False, # flips your display content on right side split
+    brightness=0.6, # initial screen brightness level
+    brightness_step=0.1, # used for brightness increase/decrease keycodes
+    dim_time=30, # time in seconds to reduce screen brightness
+    dim_target=0.1, # set level for brightness decrease
+    off_time=60, # time in seconds to turn off screen
+    powersave_dim_time=10, # time in seconds to reduce screen brightness
+    powersave_dim_target=0.1, # set level for brightness decrease
+    powersave_off_time=30, # time in seconds to turn off screen
+)
+
+display.entries = [
+    ImageEntry(image="layer-1.bmp", layer=0),
+    ImageEntry(image="layer-2.bmp", layer=1),
+    ImageEntry(image="layer-3.bmp", layer=2),
+    ImageEntry(image="layer-4.bmp", layer=3),
+]
+
 
 i2c = board.I2C()
 pcf = adafruit_pcf8574.PCF8574(i2c)
@@ -27,6 +68,7 @@ keyboard.extensions.append(MediaKeys())
 keyboard.modules.append(macros)
 keyboard.modules.append(MouseKeys())
 keyboard.modules.append(encoder_handler)
+keyboard.extensions.append(display)
 
 keyboard.col_pins = (board.D7,board.D8,board.D9,board.D10)
 keyboard.row_pins = (board.D0,board.D1,board.D2,board.D3)
